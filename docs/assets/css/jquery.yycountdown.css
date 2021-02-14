@@ -1,0 +1,37 @@
+.yycountdown-box{
+	text-align:center;
+	margin:10px 0;
+	color:#FFF;
+}
+
+#timerjs .yycountdown-box .yyc-day{
+	font-size: 5vw;
+  font-weight: normal;
+  text-shadow: 0 0 1vw #2EA7E0;
+	margin-right: 1vw;
+}
+#timerjs .yycountdown-box .yyc-hou{
+	font-size: 5vw;
+  font-weight: normal;
+  text-shadow: 0 0 1vw #2EA7E0;
+	margin-right: 1vw;
+}
+#timerjs .yycountdown-box .yyc-min{
+	font-size: 5vw;
+  font-weight: normal;
+  text-shadow: 0 0 1vw #2EA7E0;
+	margin-right: 1vw;
+}
+#timerjs .yycountdown-box .yyc-sec{
+	font-size: 5vw;
+  font-weight: normal;
+  text-shadow: 0 0 1vw #2EA7E0;
+	margin-right: 1vw;
+}
+
+#timerjs .yycountdown-box .yyc-day-text,
+#timerjs .yycountdown-box .yyc-hou-text,
+#timerjs .yycountdown-box .yyc-min-text,
+#timerjs .yycountdown-box .yyc-sec-text{
+	font-size:1.0em;
+}

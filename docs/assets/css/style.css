@@ -1,0 +1,413 @@
+@charset "utf-8";
+
+/* CSS Document */
+*{-webkit-box-sizing:border-box;box-sizing:border-box; outline: none;}
+img {width: 100%; height: 100%;object-fit: cover;}
+h1,h2,h3,h4,h5,h6{padding: 0;margin: 0;}
+p{padding: 0;margin: 0;line-height: 100%;}
+li{padding: 0;margin: 0;list-style-type:none; text-decoration:none; }
+ul{padding:0; margin:0; list-style-type:none;}
+a{text-decoration:none !important; outline:none !important; list-style:none;}
+body{font-family: 'Noto Sans JP', sans-serif;font-size: 1.3vw;overflow-x: hidden;}
+.header{background-color: #000;display: flex;justify-content: center;align-items: center;}
+.header img {object-fit: none;}
+.top_view{
+  background: #000 url('../images/top_view_bg.png') no-repeat;
+  background-position: top;
+	padding: 7vw 0;
+	text-align: center;
+	color: #fff;
+}
+.top_view_logo {width: 22vw;margin: auto;margin-bottom: 3vw;}
+.timer{
+	max-width: 40vw;
+	margin: auto;
+	padding-top: .8vw;
+	display: flex;
+	justify-content: space-around;
+	border-top: .1vw solid #707070;
+}
+.yycountdown-box {margin-bottom: 0 !important;}
+.yycountdown-box .yyc-day{position: relative;top:0;left:-5vw;}
+.yycountdown-box .yyc-hou{position: relative;top:0;left:-0.5vw;}
+.yycountdown-box .yyc-min{position: relative;top:0;left:3vw;}
+.yycountdown-box .yyc-sec{position: relative;top:0;left:7vw;}
+.cunit{
+  border-bottom: .1vw solid #707070;
+  width: 40vw;
+  margin: auto;
+  padding-bottom: 1.5vw;
+
+}
+.cunit1{position: relative;top:-0.8vw;left:-8.2vw;}
+.cunit2{position: relative;top:-0.8vw;left:0vw;}
+.cunit3{position: relative;top:-0.8vw;left:5.2vw;}
+.cunit4{position: relative;top:-0.8vw;left:10.5vw;}
+.num span{font-weight: 100;}
+h1{font-size: 6vw;color: #0099DB;}
+.h1-mb {margin-bottom: 2vw;}
+h2{margin-bottom: 4vw;font-size: 5vw;font-weight: 400;color: rgba(255,255,255,0.67);}
+h3{font-size: 5vw;font-weight: normal;text-shadow: 0 0 1vw #2EA7E0;}
+h4{margin-bottom: 4vw;font-size: 3.5vw;text-shadow: 0 0 1vw #2EA7E0;font-weight: bold;}
+h5{font-size: 3vw;font-weight: 400;}
+h6{font-size: 36px;}
+.section{max-width: 60vw;margin: 0 auto 7vw;}
+.video_btns{display: flex;padding: 3vw 0;justify-content: center;align-items: center;}
+.contract_txt{margin-bottom: 1vw;font-size: 2vw;text-shadow: 0 0 1vw #2EA7E0;line-height: 1.3;font-weight: bold;}
+.video_conent iframe{width: 100%;height: 100%;}
+.tron_item{width: 27vw;height: 22vw;margin: 0 auto;}
+.trongo_detail{margin-bottom: 4vw;font-size: 1.1vw;line-height: 1.5;}
+.trongo_detail_mb{margin-bottom: 6vw;}
+.program{
+	background: url('../images/TronGo DistributionProgram.png') no-repeat;
+	background-color: #151515;
+	background-size: 96%;
+  background-position-x: center;
+  padding: 9.5vw 0;
+	text-align: center;
+	color: #fff;
+}
+.chart{width: 40vw;margin: 0 auto;}
+.go{
+  background: url('../images/GO_bg.png') no-repeat;
+  background-size: 113%;
+	background-color: #151515;
+	padding: 3vw 0 9.5vw;
+	text-align: center;
+}
+.go_item{max-width: 60vw;margin: 0 auto 3vw;}
+.TGO_TGX{
+	background: url('../images/TGO & TGX Tokens.png') no-repeat;
+	background-color: #EBEBEB;
+	background-size: 96%;
+  background-position-x: center;
+	padding: 8vw 0 8vw;
+	text-align: center;
+	color: #000;
+}
+.content {position: relative;}
+.right_hand{
+  position: absolute;
+  top: -3vw;
+  right: -19vw;
+  width: 42vw;
+}
+.left_hand{
+  position: absolute;
+  left: -16vw;
+  bottom: -18vw;
+  width: 43vw;
+}
+.levels{max-width: 60vw;margin: 0 auto;position: relative;z-index: 1;}
+.item{
+	margin: 0.25vw 0;
+	padding: 0 0.25vw;
+}
+.common{
+  color: #fff;
+	border-radius: .7vw;
+	padding: 1.5vw 0;
+}
+.level1{
+	background: linear-gradient(to bottom, #57A3D5, #3795CD 25%, #0D6BA2);
+}
+.level2{
+	background: linear-gradient(to bottom, #4D9AD0, #3F8CC2 25%, #1C6AA0);
+}
+.level3{
+	background: linear-gradient(to bottom, #4391CC, #2A7CBA 20%, #1067A8);
+}
+.level4{
+	background: linear-gradient(to bottom, #3989C7, #1C6CAC 20%, #1765A2);
+}
+.level5{
+	background: linear-gradient(to bottom, #2E81C3, #1C6CAB 20%, #085591);
+}
+.level6{
+	background: linear-gradient(to bottom, #2279BE, #1169AF 20%, #00589F);
+}
+.level7{
+	background: linear-gradient(to bottom, #1372B9, #0960A2 20%, #004F8B);
+}
+.level8{
+	background: linear-gradient(to bottom, #006AB5, #005B9C 20%, #004B81);
+}
+.level9{
+	background: linear-gradient(to bottom, #0063B0, #005191 25%, #00447B);
+}
+.level10{
+	background: linear-gradient(to bottom, #005DAB, #004279 25%, #003460);
+}
+.level{font-size: 2vw;font-weight: bold;margin-bottom: 1.5vw;}
+.font36{font-size: 1.5vw;font-weight: 600;line-height: 1.5;}
+.plus{font-size: 5vw;color:rgba(255,255,255,0.38);}
+.capital_pool{
+	background: radial-gradient(circle 80vw at 50% 26%,#E6E6E6, #393939);
+	position: relative;
+}
+.pool_content{
+	background: url('../images/Global Capital Pool.png') no-repeat;
+	background-size: 96%;
+  background-position-x: center;
+	padding: 7vw 0 8vw;
+	text-align: center;
+	color: #fff;
+}
+.trx_ask{position: relative;margin-bottom: 8vw;}
+.trx_ask:before{
+	content: '';
+  position: absolute;
+  top: -10vw;
+  left: -6vw;
+	background: url('../images/left_coin.png') no-repeat;
+	width: 40vw;
+  height: 65vw;
+  z-index: 1;
+ }
+.trx_ask:after{
+	content: '';
+  position: absolute;
+  top: -3vw;
+  right: -14vw;
+	background: url('../images/right_coin.png') no-repeat;
+	width: 40vw;
+  height: 65vw;
+  z-index: 1;
+}
+.col-sm-12{z-index: 100;}
+.tgo_tgx span{line-height: 1.5;}
+.white_shadow{text-shadow: 0 0 1vw #fff;margin-bottom: 3vw;}
+.no_shadow{text-shadow: none;font-weight: bold;}
+.percent{font-size: 4vw;}
+.line{width: 2px;height: 100%;margin: 0 auto;background-color: #fff;}
+.tgo_tgx{padding: 3vw 2vw;}
+.pouch{width: 8vw;margin: 21vw auto 0;}
+.three_com{width: 12vw;margin: 10vw auto 0;}
+.footer{
+	background: url(../images/footer_bg.png) no-repeat;
+	background-size: cover;
+	padding: 8vw 0;
+	color: #fff;
+	text-align: center;
+}
+.footer_logo{width: 15vw;margin: 0 auto 2vw;}
+.footer_detail{font-size: 2.5vw;}
+.copyright{background-color: #000;height: 34px;line-height: 34px;text-align: center;color: #fff;font-size: 12px;}
+.mt-20{width: 15vw;margin: 0 auto .5vw;}
+.mt-20_join{width: 15vw;margin: 0 auto .5vw;}
+.mt-20_join-md{margin-bottom: 3vw;}
+.mt-60{margin-top: 60px;}
+.m-30{margin-bottom: 2vw;}
+.m-40{margin: 40px 0;}
+.p-0{padding: 0;}
+.txt-c{text-align: center;}
+.txt-l{text-align: left;}
+.txt-r{text-align: right;}
+.pc_view{max-width: 60vw;margin: 0 auto;}
+.sp_view{display: none;}
+.movie-wrap {
+     position: relative;
+     padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+     height: 0;
+     overflow: hidden;
+}
+.movie-wrap iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+}
+.tdep{
+  font-size: 1.1vw;
+    line-height: 1.5;
+}
+.movie-wrap {top: 3.5vw;}
+.grayfont{text-shadow:none;font-size: 5vw;opacity: .6;font-weight: normal;}
+
+
+.join_btntop{width:23vw;}
+.toplogoimg{object-fit: contain !important;width: 2vw;padding: 0.5vw 0;}
+
+
+@media print, screen and (max-width: 767px) {
+.toplogoimg{object-fit: contain !important;width: 5vw;padding: 1vw 0;}
+  .movie-wrap {top: 0vw;}
+  .white_shadow {text-shadow: 0 0 2vw #fff;}
+  .go {background: url(../images/GO_bgsp.png) ;background-size: cover;}
+  .top_view {
+    background: #000 url(../images/top_view_bgsp.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat-y: no-repeat;
+  }
+  .line {width: 0;}
+  .timer{
+  	max-width: 40vw;
+  	margin: auto;
+  	padding-top: .8vw;
+  	display: flex;
+  	justify-content: space-around;
+  	border-top: .1vw solid #707070;
+  }
+  .yycountdown-box {
+      margin-bottom: 0 !important;
+  }
+  .yycountdown-box .yyc-day{top:0;left:-13vw;font-size: 10vw !important;text-shadow: 0 0 4vw #2ea7e0!important;}
+  .yycountdown-box .yyc-hou{top:0;left:-3.5vw;font-size: 10vw!important;text-shadow: 0 0 4vw #2ea7e0!important;}
+  .yycountdown-box .yyc-min{top:0;left:6vw;font-size: 10vw!important;text-shadow: 0 0 4vw #2ea7e0!important;}
+  .yycountdown-box .yyc-sec{top:0;left:16vw;font-size: 10vw!important;text-shadow: 0 0 4vw #2ea7e0!important;}
+  .cunit{width: 85vw;margin-bottom: 10vw;}
+  .cunit1{top:-3.8vw;left:-16.6vw;}
+  .cunit2{top:-3.8vw;left:-2vw;}
+  .cunit3{top:-3.8vw;left:10.5vw;}
+  .cunit4{top:-3.8vw;left:21.5vw;}
+  .tron_item-img{width: 60vw;}
+
+  .contract_txt {text-shadow: 0 0 6vw #2ea7e0;}
+  .tdep {
+    font-size: 4vw;
+    line-height: 1.7;
+  }
+  .remaintext{font-size:4vw}
+  .pouch {width: 27vw;}
+  .psec{margin-bottom: 38vw;}
+  .footer_logo {width: 100vw;margin: auto;}
+  .flogoimg{width: 50vw;margin-bottom: 15vw;margin-top: 15vw;}
+  .footer_detail {font-size: 6vw;line-height: 1.3;margin-bottom: 10vw;}
+  .footer-h4{margin-bottom: 10vw;}
+  .section,.max85 {max-width: 85vw;margin:auto;}
+  .top_view_logo {width: 50vw;}
+  .timer {max-width: 85vw;}
+  .join_btn{width:70vw;}
+  .timer h3{font-size: 11vw;}
+  .header{}
+	.top_view{padding: 10vw 0;}
+  .h1-mb{font-size: 25vw;margin-bottom: 5vw;}
+	h2{font-size: 5vw;margin-bottom: 8vw;}
+	h3{font-size: 6vw;}
+	h4{font-size: 10vw;margin-bottom: 10vw;text-shadow: 0 0 6vw #2ea7e0;font-weight: bold;}
+	h5{font-size: 6vw;}
+  .trongot1{font-size: 10vw;}
+	.timer{padding: 2vw 0;}
+	.num span{font-size: 1vw;}
+  .contract_txt{font-size: 7vw;font-weight: bold;margin: 5vw 0 6vw;line-height: 1.2;}
+  .mt-20{width: 38vw;margin-bottom: 0vw;}
+  .mt-20_join{width: 100vw;}
+  .tron_item{width: 100vw;height:auto;margin-bottom: 10vw;}
+  .trongo_detail{font-size: 4vw;line-height: 1.7;margin-bottom: 11vw;}
+  .mt-20_join-md{margin-bottom: 8vw;}
+	.program{
+		background: url('../images/TronGoDistributionProgram_sp.png') no-repeat;
+		background-color: #151515;
+		background-size: 96%;
+    background-position-x: center;
+    padding: 20vw 0;
+	}
+	.chart{width: 88%;}
+  .go_item {max-width: 80vw;}
+  .go_item-trx{max-width: 100vw;margin: 0 auto;}
+  .trximg{width: 50vw;}
+  .no_shadow{font-size: 9vw;font-weight: bold;text-shadow: none;}
+  .levels {max-width: 85vw;}
+	.TGO_TGX{
+		background: url('../images/TGO & TGXTokens_sp.png') no-repeat;
+	    background-color: #EBEBEB;
+	    background-size: 96%;
+	    background-position-x: center;
+	    padding: 20vw 0;
+	}
+	.sp_w_50{width: 50%;}
+	.right_hand{top: 50vw;right: -19vw;}
+	.item .common span{font-size: 1vw;}
+	.item .common span.font36{font-size: 17px;}
+	.level{font-size: 4vw;}
+	.common{padding: 6vw 0;border-radius: 3vw;margin-bottom: 1vw;}
+	.item .common span.plus{font-size: 5vw;margin: -1vw;}
+	.left_hand {
+      left: -17vw;
+      bottom: -29vw;
+	}
+	.pool_content{
+		background: url('../images/GlobalCapital Pool_sp.png') no-repeat;
+	    background-size: 96%;
+	    background-position-x: center;
+	    padding: 20vw 0;
+	}
+	.trx_ask:before {
+	    content: '';
+      position: absolute;
+      width: 44vw;
+      top: 46vw;
+      left:0;
+	    background: url(../images/left_coin_sp.png) no-repeat;
+	    z-index: 0;
+	}
+	.trx_ask:after {
+	    content: '';
+      position: absolute;
+      top: 226vw;
+      right: -16px;
+      height: 76vw;
+	    background: url(../images/right_coin_sp.png) no-repeat;
+	    z-index: 1;
+	}
+	.trx_ask{margin-bottom: 52vw;}
+	.pouch {margin-top: 22vw;}
+	.three_com{width: 40vw;margin-bottom: 21vw;}
+  .pc_view{display: none;}
+  .sp_view{display: block;}
+  .m-auto{width: 85vw; margin: 0 auto;}
+  .font36{font-size: 7vw;font-weight: bold;margin-bottom: 5vw;}
+  .footer{padding-bottom: 22vw;}
+  .percent {font-size: 15vw;}
+}
+
+/*
+@media print, screen and (max-width: 400px) {
+  h2{font-size: 10vw;margin-bottom: 10vw;}
+  h3{font-size: 11vw;}
+  h4{font-size: 10vw;margin-bottom: 10vw;text-shadow: 0 0 5vw #2EA7E0;}
+  h5{font-size: 6vw;}
+  .header{height: 10vw;}
+  .top_view_logo{width: 45vw;margin-bottom: 8vw;}
+  .timer{max-width: 90vw;padding: 5vw 0;margin-bottom: 9vw;}
+  .section{max-width: 90vw;}
+  .video_conent{margin-bottom: 3vw;}
+  .contract_txt{font-size: 7vw;}
+  .mt-20{width: 60vw;margin-bottom: 1vw;}
+  .mt-20_join{width: 100vw;margin-bottom: 10vw;}
+  .tron_item{width: 65vw;height: 50vw;}
+  .trongo_detail{margin-bottom: 22vw;font-size: 4vw;line-height: 2;}
+  .program{padding: 22vw 0;}
+  .chart{max-width: 90vw;margin: 0 auto;}
+  .go_item{max-width: 90vw;}
+  .go_item-trx{max-width: 60vw;}
+  .go_item-mb{margin-bottom: 10vw;}
+  .TGO_TGX{padding: 22vw 0;}
+  .no_shadow{font-weight: bold;}
+  .trongo_detail-mb{margin-bottom: 10vw;}
+  .levels{max-width: 80vw;}
+  .common{padding: 7vw 0;border-radius: 3vw;}
+  .item{padding: 0 .5vw;margin: .5vw 0;}
+  .right_hand{top: 70vw;right: -37vw;width: 60vw;}
+  .left_hand{bottom: -24vw;left: -27vw;width: 70vw;}
+  .level{margin-bottom: 3vw;font-size: 5vw;}
+  .item .common span.plus{font-size: 8vw;}
+  .pool_content{padding: 22vw 0;}
+  .capital_pool{background: radial-gradient(circle 170vw at 50% 30%,#E6E6E6, #393939);}
+  .white_shadow{margin-bottom: 10vw;text-shadow: 0 0 3vw #fff;}
+  .m-auto{width: 80vw;}
+  .h1-mb{font-size: 30vw;margin-bottom: 10vw;}
+  .trx_ask{margin-bottom: 50vw;}
+  .percent{font-size: 20vw;}
+  .font36{font-size: 10vw;font-weight: bold;margin-bottom: 10vw;}
+  .font4vw{font-size: 4vw;line-height: 2;}
+  .pouch{width: 20vw;margin-top: 15vw;margin-bottom: 50vw;}
+  .three_com{width: 25vw;margin-top: 15vw;margin-bottom: 20vw;}
+  .footer{padding: 30vw 0;}
+  .footer_logo{width: 50vw;margin-bottom: 20vw;}
+  .footer_detail{font-size: 8vw;line-height: 1.5;margin-bottom: 10vw;}
+  .footer-h4{font-size: 12vw;margin-bottom: 20vw;}
+}
+*/
