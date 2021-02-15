@@ -262,11 +262,15 @@ body {
     font-size: 0.9rem !important;
     margin-right: 50px;
 }
+.faq-answer_link:hover, .faq-answer_link a:hover {
+    opacity: 0.7;
+    color: #2EA7E0;
+}
 
 .faq-answer_link:after, .bottom-link_item a:after {
     position: absolute;
     content:"";
-    top: 50%;
+    top: calc(50% - 2px);
     left: 99%;
     width: 10px;
     height: 10px;
